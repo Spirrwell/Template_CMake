@@ -1,8 +1,5 @@
 {
 	"dependencies": [
-		"asio",
-		"fixed-string",
-		"fmt",
-		"frozen"
+		"fmt"
 	]
 }
