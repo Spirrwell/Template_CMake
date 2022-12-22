@@ -8,4 +8,5 @@ FetchContent_Declare(
 )
 
 FetchContent_Populate( vcpkg )
+set( VCPKG_INSTALLED_DIR "${CMAKE_SOURCE_DIR}/_deps/vcpkg_installed" )
 set( CMAKE_TOOLCHAIN_FILE "${vcpkg_SOURCE_DIR}/scripts/buildsystems/vcpkg.cmake" )
