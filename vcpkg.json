@@ -1,0 +1,8 @@
+{
+	"dependencies": [
+		"asio",
+		"fixed-string",
+		"fmt",
+		"frozen"
+	]
+}
